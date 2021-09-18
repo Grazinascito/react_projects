@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    min-height: 1000px;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #F2F2F2;
+
+}
+
+input{
+    width: 430px;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: none;
+    outline: none;
+    
+    border-radius: 5px;   
+}
+
+header{
+    width: 100vw;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+h1{
+    font-size: 40px;
+    width: 430px;
+    color: white;
+    letter-spacing: 15px;
+ 
+}
+.todo{
+    height: 400px;
+    width: 430px;
+    margin-top: -85px;
+    border: 1px 0 solid gray;
+    border-radius: 5px;
+    
+    
+    
+}
+
+.task-list{
+    list-style: none;
+
+    display: flex;
+    justify-content: space-between;
+
+    border-top: 1px solid rgba(128, 128, 128, 0.281);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.308);
+    border-radius: 5px;
+    background-color:#fff;
+    color: #494C6B;
+    padding: 20px;
+    
+}
+.task-list + .task-list{
+    margin-top: 5px;
+}
+
+.task-info{
+    list-style: none;
+
+    display: flex;
+    flex-wrap: wrap;
+ 
+
+    border-top: 1px solid rgba(128, 128, 128, 0.281);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.308);
+    border-radius: 5px;
+    background-color: #fff;
+    color: #494C6B;
+    padding: 20px;
+   
+  
+}
+
+.task-info a {
+    margin-left: 8px;
+    text-decoration: none;
+}
